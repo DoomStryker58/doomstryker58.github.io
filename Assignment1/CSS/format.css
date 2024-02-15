@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+html {
+
+    font-size: 100%;
+    line-height: 1.6;
+    background: #000000;
+    background-image: url("../images/stars.jpeg");
+
+    background-attachment: fixed;
+    background-size: cover;
+    line-height: 1.2;
+}
+header{
+    background:#0b0930;
+    padding: 1rem;
+    text-shadow: 1px 2px 1px #ffffff;
+}
+header p{
+    font-family: "Teko";
+    font-size: x-large;
+    color: #20c0ff;
+    background:#170c57;
+    padding: 1rem;
+    text-shadow: 0px 1px 1px #2c3983;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+
+    font-family: "Orbitron";
+    font-weight: bolder;
+}
+h2{
+    font-style: italic;
+    text-align: center;
+    font-size: 1.4rem;
+    text-shadow: 1px 0px 0px #ffffff;
+    font-family: "Orbitron";
+    font-weight: bold;
+    color: #6274da;
+}
+h3{
+    text-align: center;
+    font-size: 1.4rem;
+
+    font-family: "Orbitron";
+    font-weight: bold;
+    color: #6274da;
+}
+h4{
+    text-align: center;
+    font-size: 1.0rem;
+
+    font-family: "Orbitron";
+    font-weight: 700;
+    color: #6274da;
+}
+body{
+    width: 900px;
+	margin: 0 auto 0 auto;
+    background: #03062b;
+}
+section{
+    text-align: center;
+    font-size: 1.0rem;
+    font-style: italic;
+    font-family: "Orbitron";
+    font-weight: 800;
+    color: #c0d1ff;
+}
+p{
+    text-align: center;
+    font-size: 1.0rem;
+    font-family: "Orbitron";
+    font-weight: 800;
+    color: #c0d1ff;
+    hyphens: auto;
+}
+footer{
+    text-align: center;
+    font-family: "Orbitron";
+    background: #080227;
+	color: #6274da;
+    padding: 2rem;
+}
+h5{
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #6274da;
+}
+h6{
+    font-style: italic;
+    font-size: 1.0rem;
+    color: #6274da;
+}
+article{
+    text-align: center;
+    color: #a5b3ff;
+    font-family: "Orbitron";
+    font-weight: bold;
+    line-height: 20pt;
+}
+a{
+    text-decoration: none;
+    color:rgb(28, 107, 255);
+}
